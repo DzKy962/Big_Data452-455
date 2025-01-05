@@ -6,6 +6,28 @@ Semua asset dan asset dapat diakses dari Github ini, Apabila dataset tidak terte
   <img src="https://github.com/user-attachments/assets/a2b19526-0099-48a6-adc5-6dc2f61b713e" alt="pngeg" width="480">
 </div>
 
+## Langkah-langkah Analisis Data
+
+1. Instalasi Java Development Kit (JDK)
+   ```
+   !apt-get install openjdk-8-jdk-headless -qq > /dev/null
+   ```
+2. Unduh Apache Spark Versi 3.5.1 dengan dukungan Hadoop 3
+   ```
+   !wget -q http://archive.apache.org/dist/spark/spark-3.5.1/spark-3.5.1-bin-hadoop3.tgz
+   ```
+3. Ekstrak File Spark
+   ```
+   !tar xf spark-3.5.1-bin-hadoop3.tgz
+   ```
+4. Instal Library Spark
+   ```
+   !pip install -q findspark
+   ```
+5. (Optional) Verifikasi Spark
+   ```
+   !tar xf spark-3.5.1-bin-hadoop3.tgz
+   ``` 
 ## Daftar isi
 - [Pendahuluan](#pendahuluan)
 - [Alur Penelitian](#alur-penelitian)
