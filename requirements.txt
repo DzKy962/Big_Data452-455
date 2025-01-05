@@ -1,0 +1,6 @@
+- Pandas
+- matplotlib
+- seaborn
+- numpy
+- IPython.display
+- scikitlearn
