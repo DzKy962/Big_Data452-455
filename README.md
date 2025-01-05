@@ -10,28 +10,32 @@ Semua asset dan asset dapat diakses dari Github ini, Apabila dataset tidak terte
   <img src="https://github.com/user-attachments/assets/48633f16-3793-4dec-b2ae-283c28ef1dc3" alt="Spotify Big data" width="480">
 </div>
 
-## Langkah-langkah Analisis Data
+## Langkah-langkah Analisis Data (Google Colab Colab)
 
-1. Instalasi Java Development Kit (JDK)
+1. Instalasi pandas
    ```
-   !apt-get install openjdk-8-jdk-headless -qq > /dev/null
+   pip install manager
    ```
-2. Unduh Apache Spark Versi 3.5.1 dengan dukungan Hadoop 3
+2. Instalasi numpy
    ```
-   !wget -q http://archive.apache.org/dist/spark/spark-3.5.1/spark-3.5.1-bin-hadoop3.tgz
+   pip install numpy
    ```
-3. Ekstrak File Spark
+3. Instalasi seaborn
    ```
-   !tar xf spark-3.5.1-bin-hadoop3.tgz
+   pip install seaborn
    ```
-4. Instal Library Spark
+4. Instalasi numpy
    ```
-   !pip install -q findspark
+   pip install numpy
    ```
-5. (Optional) Verifikasi Spark
+5. Instalasi scikit-learn
    ```
-   !tar xf spark-3.5.1-bin-hadoop3.tgz
-   ``` 
+   pip install scikit-learn
+   ```
+6. Instalasi IPython (Optional)
+   ```
+   from IPython.display import display, HTML, Image
+   ```
 ## Daftar isi
 - [Pendahuluan](#pendahuluan)
 - [Alur Penelitian](#alur-penelitian)
