@@ -1,9 +1,15 @@
 # Analisis Popularitas Lagu Spotify Berdasarkan Karakteristik Musik dan Preferensi Playlist
 
+Semua asset dan asset dapat diakses dari Github ini, Apabila dataset tidak tertera bisa diakses melalui [LINK](https://www.dropbox.com/sh/qj0ueimxot3ltbf/AACzMOHv7sZCJsj3ErjtOG7ya?dl=1)
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/a2b19526-0099-48a6-adc5-6dc2f61b713e" alt="pngeg" width="480">
+</div>
+
 ## Daftar isi
 - [Pendahuluan](#pendahuluan)
 - [Alur Penelitian](#alur-penelitian)
-- 
+- [Kesimpulan](#kesimpulan)
 ## Pendahuluan
 Musik adalah salah satu hiburan yang sangat diminati oleh banyak orang, saat ini banyak plaform digital yang telah memberi pelayanan untuk kita memutar musik sesuai dengan selera dan bahkan memberikan rekomendasi berdasarkan lagu yang sering kita putar. Dari waktu ke waktu genre musik semakin berkembang, sebagai contoh, di beberapa tahun lalu hanya terdapat Pop, Classic, Rock, dan lain sebagainya namun di era kini terdapat banyak genre lain seperti Accoustic, Edm, Post Rock dan Lain sebagainya. Oleh karena itu tidak bisa dipungkiri apabia terdapatnya campur tangan _Machine Learning_ dalam hal ini agar dapat memproses data-data lagu yang ada pada suatu Platform, sebagai contoh Spotify.
 
@@ -32,3 +38,12 @@ import numpy as np
   Setelah Splitting dan Modeling dilakukan, Data akan diuji dan akan diketahui bagaimana model atau algoritman yang kita pakai memproses Data tersebut
   
   <img width="320" alt="BigData#4" src="https://github.com/user-attachments/assets/db23a97d-11aa-4595-95d7-830606202a2d" />
+  <img width="320" alt="BigData#5" src="https://github.com/user-attachments/assets/b451d3b2-fc57-4b52-9915-ab003befb53c" />
+
+- Evaluation
+
+  Proses Evaluasi dilakukan untuk melihat kembali hail train dari model mulai dari melihat Classification Report, Confussion Matrix, Learning Curves dan lain sebagainya. Hal ini sangat penting dilakukan agar kita dapat mengetahui pola-pola Machine Learning dalam melakukan train, kita juga dapat melihat beberapa kelebihan dan kelemahan pada setiap model yang digunakan sehingga kita bisa mendapatkan informasi yang diperlukan dan digunakan untuk memperbaiki model, maupun bagian lain agar model dapat bekerja lebih optimal.
+
+## Kesimpulan
+
+Data Spotify yang telah diteliti memberikan wawasan yang dapat diterjemahkan menjadi aksi nyata untuk meningkatkan keterlibatan pengguna. Analisis karakteristik lagu populer, sistem rekomendasi personal, dan playlist tematik turut membantu dalam memenuhi kebutuhan audiens, sementara segmentasi audiens memungkinkan penyusunan kampanye pemasaran yang lebih relevan dan efektif. Penelitian ini masih kurang dari kata sempurna sehingga diharapkan untuk di waktu kedepan diadakan penelitian yang dapat menyempurnakan dan memberikan informasi yang lebih dari penelitian yang telah dilakukan.
