@@ -3,7 +3,7 @@
 Semua asset dan asset dapat diakses dari Github ini, Apabila dataset tidak tertera bisa diakses melalui [LINK](https://www.dropbox.com/sh/qj0ueimxot3ltbf/AACzMOHv7sZCJsj3ErjtOG7ya?dl=1)
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/a2b19526-0099-48a6-adc5-6dc2f61b713e" alt="pngeg" width="480">
+  <img src="https://github.com/user-attachments/assets/48633f16-3793-4dec-b2ae-283c28ef1dc3" alt="Spotify Big data" width="480">
 </div>
 
 ## Langkah-langkah Analisis Data
